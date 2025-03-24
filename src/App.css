@@ -1,0 +1,29 @@
+
+input, select {
+  width: 250px;          /* Adjust the width of input boxes */
+  padding: 8px;          /* Add spacing inside the box */
+  margin: 5px 0;         /* Add spacing between the elements */
+  border: 2.5px solid #ccc; /* Add a visible border */
+  border-radius: 4px;    /* Optional: Rounded corners */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+label {
+  display: inline-block;  /* Align labels properly */
+  width: 150px;           /* Adjust the label width */
+  font-weight: bold;      /* Make labels bold for clarity */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Align form fields vertically */
+  gap: 10px;              /* Add spacing between fields */
+}
+
+.wordDoc {
+  background-color: rgb(241, 164, 108);
+  font-weight: bold;
+  width: 250px;
+  border: 3px solid #3020ab;
+  border-radius: 3px;
+}
